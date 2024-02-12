@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>xx</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+   
+    <div class="container"></div>
+    
+    <div id="wynik" class="pytanie ukryj">
+        <p class="przesunWdol">Widzimy się w dniu: <span id="tekstOdpowiedzi1"></span> o godzinie <span id="tekstOdpowiedzi"></span></p>
+        <p>(zrób screena i mi wyślij)</p>
+    </div>
+    
+    <div id="pytaniegodzina" class="pytanie ukryj">
+        <p>Kiedy się widzimy?</p>
+        <input type="date" id="dataSpotkania" required>
+        <input type="time" id="odpowiedzUzytkownika" required>
+        <button id="btnOdpowiedz">Odpowiedz</button>
+    </div>  
+
+    <div id="pytanieWalentynka" class="pytanie aktywne">
+        <p>Aniu, czy pójdziesz ze mną na spacer i włoską kolację?</p>
+        <button id="btnTak">Tak</button>
+        <button id="btnNie">Nie</button>
+    </div>
+    
+   <script src="script.js"></script>
+
+</body>
+</html>
